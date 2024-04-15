@@ -1,234 +1,83 @@
-<img class="sdg1" src="8.PNG">
-<img class="sdg2" src="9.PNG">
-<img class="sdg3" src="10.PNG">
-<img class="sdg4" src="11.PNG">
-<img class="sdg5" src="12.PNG">
-<img class="sdg6" src="13.PNG">
-<img class="sdg7" src="14.PNG">
-<img class="sdg8" src="15.PNG">
-<img class="sdg9" src="16.PNG">
-<img class="sdg10" src="17.PNG">
-<img class="sdg11" src="18.PNG">
-<img class="sdg12" src="19.PNG">
-<img class="sdg13" src="20.PNG">
-<img class="sdg14" src="21.PNG">
-<img class="sdg15" src="22.PNG">
-<img class="sdg16" src="23.PNG">
-<img class="sdg17" src="24.PNG">
-<img class="sdg18" src="25.PNG">
-<img class="sdg19" src="26.PNG">
-<img class="sdg20" src="27.PNG">
-<img class="home" src="41.png">
-
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <title>
-        SDG Goals
-    </title>
-    
+<html lang="en">
+  <head>
+    <title>SDG Goals</title>
+
     <style type="text/css">
+      body {
+        background-image: url("1.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
 
-body{
-    background-image:url('1.png');
-    background-repeat: no-repeat;
-    background-attachment:fixed;
-    background-size: cover;
-    }
+      .image-grid {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-column-gap: 5%;
+        margin: 0% 8%;
+      }
+      .image-grid-2 {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        margin: 0% 5%;
+        align-items: center;
+      }
+      .img-icon {
+        margin: 3% 0%;
+      }
+      .home {
+        height: 30px;
+      }
+      .home-button {
+        font-size: 28px;
+        background-color: rgba(6, 120, 154, 0.5);
+        color: #fff;
+        border: none;
+        border-radius: 8%;
+        cursor: pointer;
+      }
+      .home-logo {
+        display: flex;
+        border-radius: 8%;
+        width: 10%;
+      }
+      .align-center {
+        margin: 0% 55%;
+      }
+    </style>
+  </head>
 
-.sdg1{
-    position: relative;
-    float: left;
-    width: 40%;
-    left: 5%;
-    z-index: 1;
-}
-
-.sdg2{
-    position: relative;
-    float: right;
-    width: 40%;
-    right: 5%;
-    z-index: 2;
-}
-
-.sdg3{
-    position: relative;
-    float: left;
-    width: 40%;
-    top: 5%;
-    left: -35%;
-    z-index: 3;
-}
-
-.sdg4{
-    position: relative;
-    float: right;
-    width: 40%;
-    top: -18%;
-    left: -78px;
-    z-index: 4;
-}
-
-.sdg5{
-    position: relative;
-    width: 40%;
-    top: 10%;
-    left: 5%;
-    z-index: 5;
-}
-
-.sdg6{
-    position: relative;
-    width: 40%;
-    left: 55%;
-    top: -14%;
-    z-index: 6;
-}
-
-.sdg7{
-    position: relative;
-    width:40%;
-    float: auto;
-    bottom: 55px;
-    z-index: 7;
-    left: 70px;
-}
-
-.sdg8{
-    position: relative;
-    width: 40%;
-    float: right;
-    right: 70px;
-    bottom: 60px;
-    z-index: 8;
-}
-
-.sdg9{
-    position: relative;
-    width: 40%;
-    left: 65px;
-    z-index: 9;
-}
-
-.sdg10{
-    position: relative;
-    width: 40%;
-    right: -225px;
-    z-index: 10;
-}
-
-.sdg11{
-    position:relative;
-    width: 40%;
-    left: 64px;
-    top: 40px;
-    z-index: 11;
-}
-
-.sdg12{
-    position:relative;
-    width: 40%;
-    left: 223px;
-    top: 30px;
-    z-index: 12;
-}
-
-.sdg13{
-    position: relative;
-    width: 40%;
-    left: 60px;
-    top: 70px;
-    z-index: 13;
-}
-
-.sdg14{
-    position: relative;
-    width: 40%;
-    z-index: 14;
-    left: 220px;
-    top: 70px;
-}
-
-.sdg15{
-    z-index: 15;
-    position: relative;
-    width: 40%;
-    left: 60px;
-    top: 100px;
-}
-
-.sdg16{
-    z-index: 16;
-    position: relative;
-    width: 40%;
-    left: 220px;
-    top: 95px;
-}
-
-.sdg17{
-    z-index: 17;
-    position: relative;
-    width: 40%;
-    left: 10%;
-    top: 140px;
-}
-
-.sdg18{
-    z-index: 18;
-    position: relative;
-    float: left;
-    top: 165px;
-    width: 25%;
-    left: 100px;
-}
-
-.sdg19{
-    z-index: 19;
-    position: relative;
-    float: right;
-    bottom: -250px;
-    width: 20%;
-    left: -50px;
-}
-
-.sdg20{
-    z-index: 20;
-    position: relative;
-    width: 30%;
-    top: 200px;
-    left: 12%;
-}
-
-button1{
-    position: relative;
-    font-size: 28px;
-    background-color: rgba(6, 120, 154, 0.5);
-    color: #fff;
-    border: none;
-    border-radius: 5%;
-    cursor: pointer;
-    align-self: center;
-    z-index: 100;
-    bottom: 1965px;
-    left: -865px;
-}
-
-.home{
-    position: relative;
-    float: left;
-    width: 2%;
-    bottom: 1730px;
-    left: -355px;
-}
-
-</style>
-</head>
-
-<body>
-    <a href="index.html"> 
-        <button1>HOME</button1>
-    </a>
-
-</body>
-</html
+  <body>
+    <div class="home-logo">
+      <a href="index.html">
+        <button class="home-button">HOME</button>
+      </a>
+      <img class="home" src="41.png" />
+    </div>
+    <div class="image-grid">
+      <img class="img-icon" src="8.PNG" />
+      <img class="img-icon" src="9.PNG" />
+      <img class="img-icon" src="10.PNG" />
+      <img class="img-icon" src="11.PNG" />
+      <img class="img-icon" src="12.PNG" />
+      <img class="img-icon" src="13.PNG" />
+      <img class="img-icon" src="14.PNG" />
+      <img class="img-icon" src="15.PNG" />
+      <img class="img-icon" src="16.PNG" />
+      <img class="img-icon" src="17.PNG" />
+      <img class="img-icon" src="18.PNG" />
+      <img class="img-icon" src="19.PNG" />
+      <img class="img-icon" src="20.PNG" />
+      <img class="img-icon" src="21.PNG" />
+      <img class="img-icon" src="22.PNG" />
+      <img class="img-icon" src="23.PNG" />
+      <img class="img-icon align-center" src="24.PNG" />
+    </div>
+    <div class="image-grid-2">
+      <img class="sdg18" src="25.PNG" />
+      <img class="sdg20" src="27.PNG" />
+      <img class="sdg19" src="26.PNG" />
+    </div>
+  </body>
+</html>
