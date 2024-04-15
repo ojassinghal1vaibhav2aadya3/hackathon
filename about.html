@@ -1,111 +1,81 @@
-<img class="about_top" src="4.jpg">
-<img class="text" src="5.jpg" >
-<img class="unsign" src="6.png">
-<img class="ppl" src="7.png">
-<img class="flags" src="29.jpg">
-<img class="home" src="41.png">
-
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <title>
-        About
-    </title>
-    
+<html lang="en">
+  <head>
+    <title>About</title>
+
     <style type="text/css">
+      body {
+        background-image: url("1.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+      .home-logo-image-container {
+        display: flex;
+        gap: 3%;
+      }
+      .home {
+        height: 30px;
+      }
+      .image-container {
+        display: flex;
+        gap: 5%;
+      }
+      .image-container-2 {
+        display: flex;
+        gap: 20%;
+        margin-top: 4%;
+        margin-right: 5%;
+        margin-left: 5%;
+      }
+      .home-button {
+        font-size: 28px;
+        background-color: rgba(6, 120, 154, 0.5);
+        color: #fff;
+        border: none;
+        border-radius: 8%;
+        cursor: pointer;
+      }
+      .about_top {
+        width: 40%;
+        border-radius: 5%;
+      }
+      .text {
+        width: 40%;
+        border-radius: 5%;
+      }
+      .ppl {
+        width: 40%;
+      }
+      .flags {
+        width: 30%;
+        border-radius: 5%;
+      }
+      .home-logo {
+        display: flex;
+        border-radius: 8%;
+        width: 20%;
+      }
+    </style>
 
-body{
-    background-image:url('1.png');
-    background-repeat: no-repeat;
-    background-attachment:fixed;
-    background-size: cover;
-}
-
-
-
-.about_top
-    {
-        position: relative; 
-        left: -10%;
-        top: -100px;
-        bottom: 600px;
-        border-top-left-radius: 20px;
-        border-bottom-right-radius: 20px;
-        border-top-right-radius: 20px;
-        border-bottom-left-radius: 20px;
-        width: 500px;
-    }
-
-.text
-    {
-    position: relative;
-    top: 47%;
-    right: 53%;
-    width: 45%;
-    border-top-left-radius: 5%;
-    border-bottom-right-radius: 5%;
-    border-top-right-radius: 5%;
-    border-bottom-left-radius: 5%;
-    }
-
-.unsign
-    {
-    position: relative;
-    float: left;
-    width: 20%;
-    left: 45%;
-    top: 5%;
-    }
-
-.ppl
-    {
-    position: relative;
-    float:right;
-    bottom: -7%;
-    left: -4%;
-    width: 45%;
-    }
-
-.flags{
-    position: relative;
-    float: right;
-    border-top-left-radius: 5%;
-    border-bottom-right-radius: 5%;
-    border-top-right-radius: 5%;
-    border-bottom-left-radius: 5%;
-    width: 30%;
-    left: 43%;
-    bottom: 50%;
-}
-
-button1{
-    position: relative;
-    float: left;
-    bottom: 50%;
-    left: 1%;
-    font-size: 28px;
-    background-color: rgba(6, 120, 154, 0.5);
-    color: #fff;
-    border: none;
-    border-radius: 5%;
-    cursor: pointer;
-}
-
-.home{
-    position: relative;
-    width: 2%;
-    bottom: 50%;
-    left: 1.5%;
-    }
-</style>
-
-<body> 
-    <a href="index.html"> 
-        <button1>HOME</button1>
-    </a>
-
-</body>
-
-
-</head>
+    <body>
+      <div class="home-logo-image-container">
+        <div class="home-logo">
+          <a href="index.html">
+            <button class="home-button">HOME</button>
+          </a>
+          <img class="home" src="41.png" />
+        </div>
+        <div class="image-container">
+          <img class="about_top" src="4.webp" />
+          <img class="unsign" src="6.png" />
+          <img class="flags" src="29.jpg" />
+        </div>
+      </div>
+      <div class="image-container-2">
+        <img class="text" src="5.jpg" />
+        <img class="ppl" src="7.png" />
+      </div>
+    </body>
+  </head>
 </html>
